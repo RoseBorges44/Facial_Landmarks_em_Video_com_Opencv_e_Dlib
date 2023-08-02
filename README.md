@@ -3,22 +3,23 @@
 Neste projeto, foi desenvolvido um sistema de Reconhecimento Facial.
 O software emprega abordagens provenientes da área de Visão Computacional e Aprendizado de Máquina, com o propósito de reconhecer e rastrear pontos característicos no rosto humano, tais como os olhos, nariz e boca, em um fluxo contínuo de vídeo em tempo real.
 
-(https://github.com/RoseBorges44/Facial_Landmarksl_em_Video_com_Opencv_e_Dlib/blob/ff47ca5f9b3be25f6b6538ec9183875db8b7d593/Video_Deteccao_Facial%20(1).gif)
+<p align="center">
+  <img src="https://github.com/RoseBorges44/Facial_Landmarksl_em_Video_com_Opencv_e_Dlib/blob/ff47ca5f9b3be25f6b6538ec9183875db8b7d593/Video_Deteccao_Facial%20(1).gif" alt="Demonstração em GIF">
+</p>
+
 
 # Estrutura do Projeto
 A estrutura do projeto é a seguinte:
 
-── main.py
-
-── requirements.txt
-
-── shape_predictor_68_face_landmarks.dat
+── main.py <p>
+── requirements.txt <p>
+── shape_predictor_68_face_landmarks.dat<p>
 
 # Descrição dos arquivos:
 
-main.py: script Python principal que contém a lógica do detector facial.
-requirements.txt: arquivo que lista as dependências necessárias para executar o programa.
-shape_predictor_68_face_landmarks.dat: arquivo de dados usado pelo detector de marcos faciais do dlib. - baixe por esse link
+main.py: script Python principal que contém a lógica do detector facial.<p>
+requirements.txt: arquivo que lista as dependências necessárias para executar o programa.<p>
+shape_predictor_68_face_landmarks.dat: arquivo de dados usado pelo detector de marcos faciais do dlib. - baixe por esse link  
 
 # Pré-requisitos
 Para executar este projeto, você precisa ter o Python instalado em seu sistema. As dependências do projeto são listadas no arquivo requirements.txt e podem ser instaladas com o seguinte comando:

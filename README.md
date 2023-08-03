@@ -11,20 +11,20 @@ O software emprega abordagens provenientes da área de Visão Computacional e Ap
 # Estrutura do Projeto
 A estrutura do projeto é a seguinte:
 
-── main.py <p>
-── requirements.txt <p>
-── shape_predictor_68_face_landmarks.dat<p>
+── *main.py* <p>
+── *requirements.txt* <p>
+── *shape_predictor_68_face_landmarks.dat*<p>
 
 # Descrição dos arquivos:
 
-main.py: script Python principal que contém a lógica do detector facial.<p>
-requirements.txt: arquivo que lista as dependências necessárias para executar o programa.<p>
-shape_predictor_68_face_landmarks.dat: arquivo de dados usado pelo detector de marcos faciais do dlib. - baixe por esse link  
+*main.py*:  script Python principal que contém a lógica do detector facial.<p>
+*requirements.txt*:  arquivo que lista as dependências necessárias para executar o programa.<p>
+*shape_predictor_68_face_landmarks.dat*:  arquivo de dados usado pelo detector de marcos faciais do dlib - *link para baixar* https://bit.ly/3q8F4x3
 
 # Pré-requisitos
-Para executar este projeto, você precisa ter o Python instalado em seu sistema. As dependências do projeto são listadas no arquivo requirements.txt e podem ser instaladas com o seguinte comando:
+Para executar este projeto, você precisa ter o Python instalado em seu sistema. As dependências do projeto são listadas no arquivo *requirements.txt* e podem ser instaladas com o seguinte comando:
 
-pip install -r requirements.txt
+*pip install -r requirements.txt*
 
 # Detalhes do Projeto
 Esse programa identifica os pontos de referência facial no rosto de um indivíduo em um vídeo contínuo. O processo é executado através das fases a seguir:
